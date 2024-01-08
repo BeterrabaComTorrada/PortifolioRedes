@@ -20,10 +20,36 @@
     body {
       margin: 0;
       font-family: 'Avenir', sans-serif;
+      display: flex;
+      overflow: visible;
     }
 
-    /* Restante do seu código HTML... */
+    body, html {
+      height: 100%;
+    }
 
+    /* Adicione a largura máxima para evitar que o conteúdo se estenda indefinidamente */
+    .container {
+      display: flex;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Adicione o novo estilo para a terceira divisão (bottom-side) */
+    .bottom-side {
+      width: 100%;
+      background: 
+        linear-gradient(45deg, var(--color2) 25%, transparent 25%, transparent 75%, var(--color2) 75%, var(--color2)), 
+        linear-gradient(135deg, var(--color2) 25%, var(--color1) 25%, var(--color1) 75%, var(--color2) 75%, var(--color2)),
+        linear-gradient(225deg, var(--color3) 25%, var(--color4) 25%, var(--color4) 75%, var(--color3) 75%, var(--color3)),
+        linear-gradient(315deg, var(--color5) 25%, var(--color6) 25%, var(--color6) 75%, var(--color5) 75%, var(--color5));
+      background-size: 90px 90px;
+      background-position: 0 0, 135px 135px, -135px -135px, 0 0;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    /* Restante do seu código CSS... */
   </style>
 </head>
 
@@ -83,8 +109,13 @@
             </svg>
           </button>
           <div class="loader"></div>
+        </div>
       </div>
-      </div>
+    </div>
+
+    <!-- Nova divisão inferior -->
+    <div class="bottom-side">
+      <!-- Conteúdo da terceira divisão aqui -->
     </div>
   </div>
 </body>
