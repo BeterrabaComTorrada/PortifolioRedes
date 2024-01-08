@@ -14,7 +14,7 @@ body, html {
 
 .container {
   display: flex;
-  max-width: 800px; /* Adicione uma largura máxima para evitar que o conteúdo se estenda indefinidamente */
+  max-width: 100%; /* Adicione uma largura máxima para evitar que o conteúdo se estenda indefinidamente */
   margin: 0 auto; /* Centralize o conteúdo horizontalmente */
 }
 
