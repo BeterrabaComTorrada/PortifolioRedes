@@ -9,12 +9,20 @@ body {
 
 .container {
   display: flex;
+  max-width: 800px; /* Adicione uma largura máxima para evitar que o conteúdo se estenda indefinidamente */
+  margin: 0 auto; /* Centralize o conteúdo horizontalmente */
 }
 
 .left-side {
   width: 60%;
   background-color: #cc0000;
   color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.right-side {
+  width: 40%; /* Ajuste o tamanho da right-side conforme necessário */
+  background-color: white; /* Altere a cor de fundo conforme necessário */
   padding: 20px;
   box-sizing: border-box;
 }
