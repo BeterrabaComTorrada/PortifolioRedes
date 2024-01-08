@@ -20,19 +20,8 @@
     body {
       margin: 0;
       font-family: 'Avenir', sans-serif;
-    }
-
-    .amarelo {
-      width: 150%;
-      height: 150%;
-      background: linear-gradient(45deg, green 25%, transparent 25%, transparent 75%, green 75%, green),
-        linear-gradient(45deg, yellow, yellow);
-      background-size: 100px 100px;
-      background-position: 0, 50px 50px;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: -1;
+      display: flex;
+      overflow: visible;
     }
 
     body, html {
@@ -65,7 +54,6 @@
 </head>
 
 <body>
-  <div class="amarelo"></div>
   <div class="container">
     <div class="left-side">
       <div class="intro-text">
