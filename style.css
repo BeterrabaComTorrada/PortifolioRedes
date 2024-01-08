@@ -8,7 +8,7 @@ body {
   
 }
 body, html {
-  height: 60%;
+  height: 100%;
 }
 
 .container {
@@ -18,7 +18,7 @@ body, html {
 }
 
 .left-side {
-  width: 150%;
+  width: 60%;
   background-color: #cc0000;
   color: white;
   padding: 20px;
@@ -26,7 +26,7 @@ body, html {
 }
 
 .right-side {
-  width: 150%;
+  width: 40%;
   background-color: white;
   padding: 20px;
   box-sizing: border-box;
@@ -313,6 +313,20 @@ button:hover {
     color: white;
     box-shadow: 1px 1px 0px #bdc2e2, 2px 2px 0px #9ca6e0, 3px 3px 0px #9ca6e0,
       4px 4px 0px #9ca6e0, 5px 5px 0px #9ca6e0;
+  }
+  @media only screen and (max-width: 600px) {
+    .left-side {
+      width: 100%;
+    }
+  
+    .right-side {
+      width: 100%;
+    }
+  
+    button {
+      width: 100%;
+      /* Adapte outras propriedades conforme necessário para dispositivos menores */
+    }
   }
   
 
