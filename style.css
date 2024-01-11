@@ -111,7 +111,7 @@ body, html {
 .card1:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #cc39a4;
+  background-color: #182e57;
 }
 
 .card1:hover .instagram {
@@ -121,7 +121,7 @@ body, html {
 .card2:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #03A9F4;
+  background-color: #165470;
 }
 
 .card2:hover .twitter {
@@ -141,7 +141,7 @@ body, html {
 .card4:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #8c9eff;
+  background-color: #484c66;
 }
 
 .card4:hover .discord {
